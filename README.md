@@ -16,8 +16,8 @@ How to use for the first time
 <NET_PATH> has to be a existing folder.
 
 2. generate RSA keypairs for client and server  
-	python server.py -k -a <address> -x <public key filename> -y <private key filename>
-	python client.py -k -a <address> -x <public key filename> -y <private key filename>
+	python server.py -k -a <address> -x <public key filename> -y <private key filename>  
+	python client.py -k -a <address> -x <public key filename> -y <private key filename>  
 -x and -y arguments are optional and are not recommended to use.  
 client.py will need a password to protect private key, and the same password is used for login later
 
