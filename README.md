@@ -12,20 +12,20 @@ AES in GCM mode is used for secure channel encryption.
 How to use for the first time
 -----------------------------
 1. start network.py in commandline  
-	python network.py -p <NET_PATH> -a <addresses>
-<NET_PATH> has to be a existing folder.
+	`python network.py -p <NET_PATH> -a <addresses>`
+	<NET_PATH> has to be a existing folder.
 
 2. generate RSA keypairs for client and server  
-	python server.py -k -a <address> -x <public key filename> -y <private key filename>  
-	python client.py -k -a <address> -x <public key filename> -y <private key filename>  
+	`python server.py -k -a <address> -x <public key filename> -y <private key filename>`
+	`python client.py -k -a <address> -x <public key filename> -y <private key filename>`
 -x and -y arguments are optional and are not recommended to use.  
 client.py will need a password to protect private key, and the same password is used for login later
 
 3. start server.py  
-	python server.py -p <NET_PATH> -a <address>
+	`python server.py -p <NET_PATH> -a <address>`
 
 4. start client.py  
-	python client.py -p <NET_PATH> -a <address>
+	`python client.py -p <NET_PATH> -a <address>`
 	
 client.py will ask for server address and password  
 If the password is correct then authentication protocol will start  
