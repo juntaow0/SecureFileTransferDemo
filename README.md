@@ -35,8 +35,8 @@ How to use for the first time
 
 An example
 ----------
-python network.py -p './network/' -a 'ABCDE' --clean
-python server.py -k -a B
-python client.py -k -a A
-python server.py -p './network/' -a B
-python client.py -p './network/' -a A
+	python network.py -p './network/' -a 'ABCDE' --clean
+	python server.py -k -a B
+	python client.py -k -a A
+	python server.py -p './network/' -a B
+	python client.py -p './network/' -a A
